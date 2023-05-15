@@ -45,7 +45,7 @@ numVotes = 0        #variable for number of votes per candidate
 winningVote = 0     #variable for the winning number of votes
 
 
-output_path = os.path.join("ElectionResults.txt")  #set path of output txt file
+output_path = os.path.join("analysis","ElectionResults.txt")  #set path of output txt file
 
 with open(output_path,  'w') as txtfile:    #open and write to determined path
      

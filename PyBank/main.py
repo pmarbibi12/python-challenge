@@ -62,7 +62,7 @@ for changes in changeProf: #loop through each value stored in changeProf list
 changeAvg = float(changeTotal / len(changeProf))  #calculate the average change by dividing changeTotal by the number of changes
     
 #set path for txt file   
-output_path = os.path.join("FinancialAnalysis.txt") 
+output_path = os.path.join("analysis","FinancialAnalysis.txt") 
 
 with open(output_path,  'w') as txtfile: #write to file and print results
      
